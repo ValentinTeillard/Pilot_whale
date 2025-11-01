@@ -1,0 +1,48 @@
+Package: Pilot_whale
+Type: Package
+Title: The Title of the Project
+Version: 0.0.0.9000
+Authors@R: c(
+    person(given   = "Valentin",
+           family  = "Teillard",
+           role    = c("aut", "cre", "cph"),
+           email   = "valentin.teillard@gmail.com",
+           comment = c(ORCID = "0000-0002-5243-3540")))
+Description: A paragraph providing a full description of the project (on 
+    several lines...)
+URL: https://github.com/ValentinTeillard/Pilot_whale
+BugReports: https://github.com/ValentinTeillard/Pilot_whale/issues
+License: GPL-2
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    coda,
+    corrplot,
+    devtools,
+    dplyr,
+    ggplot2,
+    ggpubr,
+    ggspatial,
+    ggthemes,
+    gh,
+    grDevices,
+    gridExtra,
+    here,
+    lwgeom,
+    mgcv,
+    mvtnorm,
+    paletteer,
+    qpcR,
+    raster,
+    rcompendium,
+    remotes,
+    sf,
+    sp,
+    stars,
+    stringr,
+    tidyr,
+    tidyverse,
+    usethis,
+    utils,
+    writexl
