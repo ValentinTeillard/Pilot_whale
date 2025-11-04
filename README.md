@@ -4,7 +4,7 @@ Auteurs
 - Valentin Teillard — https://github.com/ValentinTeillard
 
 Résumé
-Ce dépôt contient le code et les analyses R associées au projet Pilot_whale. L’objectif est de fournir un workflow reproductible pour générer les résultats (figures, tables, outputs) utilisés dans l’article associé.
+Ce dépôt contient le code et les analyses R associées à l'article "Spatial Ecology and Vulnerability of Short-finned Pilot Whales (Globicephala macrorhynchus) in the Lesser Antilles: Foundations for Conservation Planning." publiée dans Marine Mammal Science. DOI : . L’objectif est de fournir un workflow reproductible pour générer les résultats concernant la modélisation spatiale via Generalized additive model (figures, tables, outputs) utilisés dans l’article associé.
 
 Structure du dépôt
 - analyses/        : scripts d’analyse R organisés (fonctions, pipelines)
