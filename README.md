@@ -7,6 +7,7 @@ Author
   * Caribbean Cetacean Society : https://www.ccs-ngo.com/
 
 Abstract
+
 This repository contains the R code and analyses associated with the article “Spatial Ecology and Vulnerability of Short-finned Pilot Whales (Globicephala macrorhynchus) in the Lesser Antilles: Foundations for Conservation Planning” published in Marine Mammal Science. DOI: .
 The objective is to provide a reproducible workflow for generating the results related to spatial modeling using Generalized Additive Models (figures, tables, outputs) presented in the associated article.
 
