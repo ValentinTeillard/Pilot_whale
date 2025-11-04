@@ -1,22 +1,28 @@
 # Pilot_whale
 
-Auteurs
+Author
 - Valentin Teillard — https://github.com/ValentinTeillard
+  
+  * Enhydra msc bio : https://www.enhydramscbio.com/
+  * Caribbean Cetacean Society : https://www.ccs-ngo.com/
 
-Résumé
-Ce dépôt contient le code et les analyses R associées à l'article "Spatial Ecology and Vulnerability of Short-finned Pilot Whales (Globicephala macrorhynchus) in the Lesser Antilles: Foundations for Conservation Planning." publiée dans Marine Mammal Science. DOI : . L’objectif est de fournir un workflow reproductible pour générer les résultats concernant la modélisation spatiale via Generalized additive model (figures, tables, outputs) utilisés dans l’article associé.
+Abstract
+This repository contains the R code and analyses associated with the article “Spatial Ecology and Vulnerability of Short-finned Pilot Whales (Globicephala macrorhynchus) in the Lesser Antilles: Foundations for Conservation Planning” published in Marine Mammal Science. DOI: .
+The objective is to provide a reproducible workflow for generating the results related to spatial modeling using Generalized Additive Models (figures, tables, outputs) presented in the associated article.
 
-Structure du dépôt
-- analyses/        : scripts d’analyse R organisés (fonctions, pipelines)
-- code/            : fonctions réutilisables et scripts principaux (ex: run_analysis.R, utils.R)
-- data/            : jeux de données (ou README avec liens si volumineux)
-- figures/         : figures générées
-- outputs/         : résultats (tables, rapports)
-- renv/ + renv.lock: environnement R figé avec renv
-- DESCRIPTION, NAMESPACE, .Rprofile, make.R : package / projet R
-- .github/workflows/: CI (si présent)
-- README.md        : ce fichier
-- LICENSE.md       : licence du projet
+  **Repository Structure**
+
+* **analyses/**        : Organized R analysis scripts (functions, pipelines)
+* **code/**            : Reusable functions and main scripts (e.g., `run_analysis.R`, `utils.R`)
+* **data/**            : Datasets (or a README with links if large)
+* **figures/**         : Generated figures
+* **outputs/**         : Results (tables, reports)
+* **renv/** + **renv.lock** : Frozen R environment using *renv*
+* **DESCRIPTION**, **NAMESPACE**, **.Rprofile**, **make.R** : R package / project files
+* **.github/workflows/** : CI configuration (if present)
+* **README.md**        : This file
+* **LICENSE.md**       : Project license
+
 
 Reproduction rapide (en local)
 1. Cloner le dépôt :
